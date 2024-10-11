@@ -41,6 +41,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 ## Cara Pemakaian
 
 - Tampilan aplikasi web
+- Tampilan admin aplikasi web
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
 
