@@ -87,40 +87,83 @@ Deskripsi singkat tentang aplikasi tsb.
     ```
     $ mysql_secure_installation
     ```
-
-9. Download dan Extract **Joomla**.
+10. Membuat database Joomla (sesuaikan masing-masing)
+    ```
+    $ mysql -u root -p
+    ```
+    ```
+    MariaDB [(none)]> CREATE DATABASE joomla;
+    MariaDB [(none)]> GRANT ALL PRIVILEGES ON joomla.* TO 'joomla'@'localhost' IDENTIFIED BY  'StrongPassword';
+    MariaDB [(none)]> FLUSH PRIVILEGES;
+    MariaDB [(none)]> EXIT;
+    ```
+11. Download **Joomla**.
     Download melalui [Official site Joomla](https://downloads.joomla.org/)
-    -Extract
-11. Kunjungi alamat IP web server kita untuk meneruskan instalasi.
-    - Pilih Bahasa yang akan digunakan
-
-      ![1](https://4.bp.blogspot.com/-4Bd2ScecDIs/WNfZ0H8j3UI/AAAAAAAAGjE/9f7Knlqzgw0a0Lgd2AVQ7Qt53bI-Of8bACLcB/s1600/36.PNG)
-
-    - Setujui persyaratan yang berlaku
-
-      ![2](https://4.bp.blogspot.com/-mglU1XDt-T0/WNfZ0OJ7n8I/AAAAAAAAGjI/bG23YpPUkyEOCiozy1_Qc4TnA29bJw0lACLcB/s1600/37.PNG)
-
-    - Cek kecocokan sistem
-
-      ![3](https://3.bp.blogspot.com/-ewzlTX1qtmw/WNfZ0HTeFuI/AAAAAAAAGjM/edNiBt1f24Qt4x4sWCoCHfyo7JXWWmoZwCLcB/s1600/38.PNG)
-
-    - Isi informasi tentang toko yang kita buat
-
-      ![4](https://2.bp.blogspot.com/-Q5cCz5hyubQ/WNfZ1FZod9I/AAAAAAAAGjU/H_uUfxtZLUE11VPDafwK8jR3-aealPKcgCLcB/s1600/39.png)
-
-    - Konfigurasi database
-
-      ![5](https://1.bp.blogspot.com/-rh08nNV2Leg/WNfZ1DAaDOI/AAAAAAAAGjY/R5oIKIMI4rYjg7gO71MgR26JSMahxtpxgCLcB/s1600/40.PNG)
-
-    - Lanjutkan proses instalasi
-
-      ![6](https://3.bp.blogspot.com/-t2MrsQBYXBU/WNfZ0x4YoWI/AAAAAAAAGjQ/zOqZVNSFIpQkQjY0awofbetdEowQLdGAwCLcB/s1600/41.PNG)
-
-12. Setelah proses instalasi selesai hapus direktori install untuk alasan keamanan.
+    
+12. Unzip file yang didownload menuju ke `/var/www/html/` (sesuaikan nama version Joomla-nya)
     ```
-    $ sudo rm -rf /var/www/html/prestashop/install
+    $ mkdir /var/www/html/joomla
+    $ unzip Joomla_4.1.2-Stable-Full_Package.zip -d /var/www/html/joomla
+    
+13. Set directory ownership dari directory ke Apache user dan ubah peermissions
     ```
-
+    $ chown -R www-data:www-data /var/www/html/joomla
+    $ chmod -R 755 /var/www/html/joomla
+    ```
+14. Restart Apache web server
+    ```
+    $ systemctl restart apache2
+    ```
+15. Membuat virtual host file untuk Joomla
+    ```
+    $ nano /etc/apache2/sites-available/joomla.conf
+    ```
+16. Tambahkan ini ke file yang sudah ada (ganti "example.com dengan domain name yang asli)
+    ```
+    <VirtualHost *:80>
+     ServerAdmin admin@example.com
+     DocumentRoot /var/www/html/joomla/
+     ServerName example.com
+     ServerAlias www.example.com
+    
+     ErrorLog ${APACHE_LOG_DIR}/error.log
+     CustomLog ${APACHE_LOG_DIR}/access.log combined
+    
+     <Directory /var/www/html/joomla/>
+            Options FollowSymlinks
+            AllowOverride All
+            Require all granted
+     </Directory>
+    </VirtualHost>
+    ```
+17. Enable virtual host file
+    ```
+    $ a2ensite joomla.conf
+    $ a2enmod rewrite
+    ```
+18. Restart apache web server
+    ```
+    $ systemctl restart apache2
+    ```
+19. Install `snapd`
+    ```
+    $ apt install snapd
+    ```
+20. Cek apakah `snapd` sudah terupdate
+    ```
+    $ snapd install; sudo snap resresh core
+    ```
+21. Install `Certbot`
+    ```
+    $ snap install --classic certbot
+    $ ln -s /snap/bin/certbot /usr/bin/certbot
+    $ certbot --apache
+    ```
+22. Konfigurasi Joomla
+    - Di browser kita akan mengatur Site name dan memasukan data data seperti Username, User Account, Super User         Password, and Email Address, setelah itui click tombol Setup Database Connection.
+    - Masukan informasi database yang sudah dibuat diawal
+    - Masukan username dan password yang sudah di atur sebelumnya
+    - Cek databasenya
 ## Cara Pemakaian
 
 - Tampilan aplikasi web
