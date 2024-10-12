@@ -2,17 +2,17 @@
   <img width="662" height="550" src="https://github.com/user-attachments/assets/e3186fa5-d051-48f0-b17c-5ea4c0491e9a">
 </p>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) | [Dokumentasi](#dokumentasi)
+:---:|:---:|:---:|:---:|:---:|:---:
 
 
 ## Sekilas Tentang
-[`^ kembali ke atas ^`](#)
 
 Joomla adalah sebuah Content Management System (CMS) open-source yang digunakan untuk membangun dan mengelola situs web secara dinamis. Dikembangkan dengan menggunakan bahasa pemrograman PHP dan database MySQL atau MariaDB, Joomla menawarkan solusi yang fleksibel untuk pengelolaan konten, pembuatan berbagai halaman web, dan penambahan fitur tambahan. Joomla menggunakan sistem modular yang memungkinkan pengguna menambahkan ekstensi berupa komponen, modul, dan plugin untuk memperluas fungsionalitas situs. Ekstensi ini bisa mencakup fitur seperti e-commerce, forum, galeri gambar, hingga optimasi mesin pencari (SEO), membuatnya sangat serbaguna. Sistem template Joomla memungkinkan pengguna untuk mengubah tampilan situs secara dinamis tanpa mempengaruhi konten yang ada, serta mendukung desain responsif untuk perangkat seluler.
 
 Joomla juga memiliki sistem manajemen pengguna yang sangat fleksibel, memungkinkan pengaturan hak akses pengguna pada berbagai tingkatan. Hal ini penting bagi situs yang melibatkan banyak pengguna dengan peran berbeda, seperti situs perusahaan besar atau portal komunitas. Salah satu fitur utamanya adalah dukungan multibahasa secara native, yang memudahkan dalam membuat situs multibahasa tanpa memerlukan ekstensi tambahan. Selain itu, Joomla dilengkapi dengan fitur SEO bawaan seperti URL ramah mesin pencari, pengelolaan metadata, dan pembuatan sitemap, yang membantu meningkatkan visibilitas situs di mesin pencari. Namun, Joomla memiliki kurva pembelajaran yang lebih tinggi dibandingkan dengan CMS lain seperti WordPress, terutama karena antarmuka yang lebih kompleks dan banyaknya opsi kustomisasi yang tersedia.
 
+[`^ back ^`](#)
 ## Instalasi
 
 **Kebutuhan Sistem :**
@@ -177,7 +177,9 @@ Joomla juga memiliki sistem manajemen pengguna yang sangat fleksibel, memungkink
       ![5](https://github.com/user-attachments/assets/3c29c4ab-7f94-4e02-a3f1-fa9a86bee2a6)
     - Masukan username dan password yang sudah di atur sebelumnya
     - Cek databasenya
-      
+
+  [`^ back ^`](#)
+  
 ## Cara Pemakaian
 
 - Tampilan aplikasi web
@@ -221,6 +223,7 @@ Pada bagian ini, pengguna dapat menulis dan menyunting isi artikel melalui edito
 ![WhatsApp Image 2024-10-12 at 21 02 10](https://github.com/user-attachments/assets/b3de2b92-90d9-4a0d-aff2-b6b838d864bb)
 Tampilan preview artikel di halaman frontend situs web dengan template Cassiopeia. Artikel "Kelompok 5 KDJK" ditampilkan dengan detail seperti penulis artikel (berlinnapoleon), tanggal publikasi (12 Oktober 2024), dan kategori (Uncategorised). Pada bagian kanan halaman, modul Login Form juga terlihat dengan pengguna yang sudah masuk ke dalam sistem dapat memilih opsi Log out.
 
+[`^ back ^`](#)
 
 ## Pembahasan
 
@@ -242,6 +245,8 @@ Dalam perbandingannya dengan Squarespace, perbedaan utama diantara keduanya terl
 
 Di lain sisi, Squarespace dikenal dengan template yang menarik dan kemudahan bagi penggunaannya. Squarespace ideal untuk pengguna yang mencari solusi cepat dan mudah tanpa pengetahuan teknis. 
 
+[`^ back ^`](#)
+
 ## Dokumentasi
 ![WhatsApp Image 2024-10-11 at 23 09 24](https://github.com/user-attachments/assets/c970d3b9-eaf3-412a-a426-f3da12e18a12)
 ![WhatsApp Image 2024-10-11 at 23 09 30](https://github.com/user-attachments/assets/76d31dfc-029a-41ea-8116-31daae0ecc17)
@@ -261,10 +266,12 @@ Di lain sisi, Squarespace dikenal dengan template yang menarik dan kemudahan bag
 ![Screenshot_2024-09-27_12-56-16](https://github.com/user-attachments/assets/09c7094d-3e24-4682-a705-ccb9d49dde7a)
 ![Screenshot_2024-09-27_12-55-58](https://github.com/user-attachments/assets/a3d27f24-d88e-4749-b3cb-b2d8942747b8)
 
-
+[`^ back ^`](#)
 
 ## Referensi
 - [https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04](https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04)
 - [https://fastdot.com/web-hosting-faq/joomla-strengths-weaknesses/#What_Are_the_Weaknesses_of_Joomla](https://fastdot.com/web-hosting-faq/joomla-strengths-weaknesses/#What_Are_the_Weaknesses_of_Joomla)
 - https://www.biznetgio.com/news/apa-itu-joomla
 - https://idcloudhost.com/blog/cmas-joomla/
+
+[`^ back ^`](#)
