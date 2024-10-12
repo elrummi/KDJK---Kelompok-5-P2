@@ -161,7 +161,13 @@ Deskripsi singkat tentang aplikasi tsb.
     ```
 23. Konfigurasi Joomla
     - Di browser kita akan mengatur Site name dan memasukan data data seperti Username, User Account, Super User         Password, and Email Address, setelah itui click tombol Setup Database Connection.
+      ![1](https://github.com/user-attachments/assets/66c3fee9-1367-4198-b747-dc474a0e9255)
+      ![2](https://github.com/user-attachments/assets/44b0fc57-69a3-436b-90a8-47dc1265338d)
+          
     - Masukan informasi database yang sudah dibuat diawal
+      ![3](https://github.com/user-attachments/assets/88dff6da-8b1e-422f-87a2-4a2af17db361)
+      ![4](https://github.com/user-attachments/assets/adcca55e-dab9-425c-964e-4ee7338ce677)
+      ![5](https://github.com/user-attachments/assets/3c29c4ab-7f94-4e02-a3f1-fa9a86bee2a6)
     - Masukan username dan password yang sudah di atur sebelumnya
     - Cek databasenya
 ## Cara Pemakaian
