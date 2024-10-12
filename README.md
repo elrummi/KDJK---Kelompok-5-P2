@@ -1,5 +1,3 @@
-# Aplikasi Web **Joomla**
-
 ![Vertical-logo-light-background-en](https://github.com/user-attachments/assets/e3186fa5-d051-48f0-b17c-5ea4c0491e9a)
 
 ## Sekilas Tentang
