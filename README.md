@@ -8,6 +8,7 @@ Deskripsi singkat tentang aplikasi tsb.
 
 ## Instalasi
 **1. Install Apache dan PHP**
+
 '''
 apt install apache2 libapache2-mod-php openssl php-imagick php-gd php-imap php-intl php-json php-ldap php-mbstring php-mysql php-pgsql php-smbclient php-ssh2 php-sqlite3 php-xml php-zip
 '''
