@@ -7,12 +7,12 @@ Deskripsi singkat tentang aplikasi tsb.
 
 
 ## Instalasi
-[`^ kembali ke atas ^`](#)
-    ###**Kebutuhan Sistem :**
-        - Windows / Linux / Ubuntu
-        - Apache Web server
-        - PHP
-        - MySQL
+
+**Kebutuhan Sistem :**
+- Windows / Linux / Ubuntu
+- Apache Web server
+- PHP
+- MySQL
 
 #### Proses Instalasi :
 1. Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
