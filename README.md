@@ -2,7 +2,7 @@
   <img width="662" height="550" src="https://github.com/user-attachments/assets/e3186fa5-d051-48f0-b17c-5ea4c0491e9a">
 </p>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) | [Dokumentasi](#dokumentasi)
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Dokumentasi](#dokumentasi) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
 
 
