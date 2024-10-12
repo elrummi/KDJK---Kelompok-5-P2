@@ -1,7 +1,12 @@
 <p align="center">
   <img width="662" height="550" src="https://github.com/user-attachments/assets/e3186fa5-d051-48f0-b17c-5ea4c0491e9a">
 </p>
+<h1 align="center"><img src="https://1.bp.blogspot.com/-3za0XKJuLSc/WNfUgBtwwFI/AAAAAAAAGiQ/ADAfpkEiUn0w6FHDjMpt-i3PzYyMBtNQQCLcB/s1600/1.png"></h1>
 
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:
+
+[`^ kembali ke atas ^`](#)
 ## Sekilas Tentang
 
 
@@ -173,6 +178,7 @@ Joomla juga memiliki sistem manajemen pengguna yang sangat fleksibel, memungkink
       ![5](https://github.com/user-attachments/assets/3c29c4ab-7f94-4e02-a3f1-fa9a86bee2a6)
     - Masukan username dan password yang sudah di atur sebelumnya
     - Cek databasenya
+      
 ## Cara Pemakaian
 
 - Tampilan aplikasi web
