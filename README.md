@@ -16,7 +16,7 @@
 
 ## PowerPoint 
 [Klik disini](https://www.canva.com/design/DAGTXUwn4AA/-rQFj0MKmpfckPPvEFyKyQ/edit?utm_content=DAGTXUwn4AA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
+<br>
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Dokumentasi](#dokumentasi) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
 
