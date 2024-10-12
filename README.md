@@ -1,7 +1,9 @@
-# Aplikasi Web "XYZ"
+# Aplikasi Web **Joomla**
 
+![Vertical-logo-light-background-en](https://github.com/user-attachments/assets/e3186fa5-d051-48f0-b17c-5ea4c0491e9a)
 
 ## Sekilas Tentang
+
 
 Joomla adalah sebuah Content Management System (CMS) open-source yang digunakan untuk membangun dan mengelola situs web secara dinamis. Dikembangkan dengan menggunakan bahasa pemrograman PHP dan database MySQL atau MariaDB, Joomla menawarkan solusi yang fleksibel untuk pengelolaan konten, pembuatan berbagai halaman web, dan penambahan fitur tambahan. Joomla menggunakan sistem modular yang memungkinkan pengguna menambahkan ekstensi berupa komponen, modul, dan plugin untuk memperluas fungsionalitas situs. Ekstensi ini bisa mencakup fitur seperti e-commerce, forum, galeri gambar, hingga optimasi mesin pencari (SEO), membuatnya sangat serbaguna. Sistem template Joomla memungkinkan pengguna untuk mengubah tampilan situs secara dinamis tanpa mempengaruhi konten yang ada, serta mendukung desain responsif untuk perangkat seluler.
 
