@@ -9,27 +9,18 @@ Deskripsi singkat tentang aplikasi tsb.
 ## Instalasi
 
 **Kebutuhan Sistem :**
-- Windows / Linux / Ubuntu
-- Apache Web server
-- PHP
-- MySQL
+- Windows / Linux / Ubuntu.
+- Apache Web server.
+- PHP.
+- MySQL.
 
 #### Proses Instalasi :
-1. Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/).
-    ```
-    $ ssh adam@172.18.88.88 -p 22
-    ```
 
-2. Pastikan seluruh paket sistem kita *up-to-date*, dan install seluruh kebutuhan sisrem seperti `Apache`, `PHP`, dan `MySQL`.
+1. Pastikan seluruh paket sistem kita sudah ter _update_, dan install seluruh kebutuhan sisrem seperti `Apache`, `PHP`, dan `MySQL`.
     ```
-    $ sudo apt-get update
-    $ sudo apt-get install apache2
-    $ sudo apt-get install mysql-server
-    $ sudo apt-get install php
-    $ sudo apt-get install libapache2-mod-php
-    $ sudo apt-get install php-mysql
-    $ sudo apt-get install php-gd php-mcrypt php-mbstring php-xml php-ssh2 php-curl php-zip php-intl
-    $ sudo apt-get install unzip
+    $ sudo apt update
+    $ sudo apt upgrade
+    $ sudo apt install apache2 libapache2-mod-php openssl php-imagick php-gd php-imap php-intl php-json php-ldap php-mbstring php-mysql php-pgsql php-smbclient php-ssh2 php-sqlite3 php-xml php-zip
     ```
 
 3. Unduh **Prestashop** ke dalam direktori kita. 
