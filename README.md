@@ -212,7 +212,7 @@ Pada screenshot ini, bagian "Advanced" dalam pengaturan modul ditampilkan. Di si
 Pada bagian ini, pengguna dapat menulis dan menyunting isi artikel melalui editor teks yang tersedia. Artikel ini memiliki alias URL "artikel-kelompok-5-kdjk", yang digunakan untuk membuat URL yang SEO-friendly. Artikel saat ini memiliki status Published, sehingga akan tampil di situs web saat disimpan. Artikel ini juga masuk dalam kategori "Uncategorised", yang dapat diubah sesuai kebutuhan.
 
 ![WhatsApp Image 2024-10-12 at 21 02 10](https://github.com/user-attachments/assets/b3de2b92-90d9-4a0d-aff2-b6b838d864bb)
-Tampilan preview artikel di halaman frontend situs web dengan template Cassiopeia. Artikel "Kelompok 5 KDJK" ditampilkan dengan detail seperti penulis artikel (berlinnapoleon), tanggal publikasi (12 Oktober 2024), dan kategori (Uncategorised). Artikel ini berisi teks pengenalan kelompok yang terdiri dari Berlin, El, Hafidz, Qonita, dan Nasywa. Pada bagian kanan halaman, modul Login Form juga terlihat dengan pengguna yang sudah masuk ke dalam sistem dapat memilih opsi Log out.
+Tampilan preview artikel di halaman frontend situs web dengan template Cassiopeia. Artikel "Kelompok 5 KDJK" ditampilkan dengan detail seperti penulis artikel (berlinnapoleon), tanggal publikasi (12 Oktober 2024), dan kategori (Uncategorised). Pada bagian kanan halaman, modul Login Form juga terlihat dengan pengguna yang sudah masuk ke dalam sistem dapat memilih opsi Log out.
 
 
 ## Pembahasan
