@@ -16,16 +16,22 @@ Deskripsi singkat tentang aplikasi tsb.
 
 #### Proses Instalasi :
 
-1. Pastikan seluruh paket sistem kita sudah ter _update_, dan install seluruh kebutuhan sisrem seperti `Apache`, `PHP`, dan `MySQL`.
+1. Pastikan seluruh paket sistem kita sudah ter _update_, dan install seluruh kebutuhan sistem seperti `Apache`, `PHP`, dan `MySQL`.
     ```
     $ sudo apt update
     $ sudo apt upgrade
     $ sudo apt install apache2 libapache2-mod-php openssl php-imagick php-gd php-imap php-intl php-json php-ldap php-mbstring php-mysql php-pgsql php-smbclient php-ssh2 php-sqlite3 php-xml php-zip
     ```
 
-3. Unduh **Prestashop** ke dalam direktori kita. 
+2. Verifikasi versi `Apache` yang telah terinstall.
     ```
-    $ wget https://download.prestashop.com/download/releases/prestashop_1.7.0.5.zip
+    $ apache2 -version
+    ```
+    Output :
+   ```
+    root@crown:~# apache2 -version
+    Server version: Apache/2.4.52 (Ubuntu)
+    Server built:   2022-03-25T00:35:40
     ```
 
 4. Ekstrak file yang telah diunduh ke dalam direktori yang kita inginkan.
