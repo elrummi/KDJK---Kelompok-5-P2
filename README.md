@@ -2,7 +2,7 @@
   <img width="662" height="550" src="https://github.com/user-attachments/assets/e3186fa5-d051-48f0-b17c-5ea4c0491e9a">
 </p>
 
-<p align="center">
+
 ## Anggota
 | Nama | NIM     |
 | :-------- | :------- | 
@@ -11,7 +11,8 @@
 [Muhammad Hafidz Rizki](https://github.com/hfz34)| G6401221046 |
 [Berlin Napoleon](https://github.com/BerlinNapoleon)| G6401221050 |
 [Qonita Khairunissa](https://github.com/qnitaakha)| G6401221116 |
-</p>
+
+<br>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Dokumentasi](#dokumentasi) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
