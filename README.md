@@ -98,27 +98,27 @@ Deskripsi singkat tentang aplikasi tsb.
     MariaDB [(none)]> EXIT;
     ```
 11. Download **Joomla**.
-    Download melalui [Official site Joomla](https://downloads.joomla.org/)
+        Download melalui [Official site Joomla](https://downloads.joomla.org/)
     
-12. Unzip file yang didownload menuju ke `/var/www/html/` (sesuaikan nama version Joomla-nya)
+13. Unzip file yang didownload menuju ke `/var/www/html/` (sesuaikan nama version Joomla-nya)
     ```
     $ mkdir /var/www/html/joomla
     $ unzip Joomla_4.1.2-Stable-Full_Package.zip -d /var/www/html/joomla
     
-13. Set directory ownership dari directory ke Apache user dan ubah peermissions
+14. Set directory ownership dari directory ke Apache user dan ubah peermissions
     ```
     $ chown -R www-data:www-data /var/www/html/joomla
     $ chmod -R 755 /var/www/html/joomla
     ```
-14. Restart Apache web server
+15. Restart Apache web server
     ```
     $ systemctl restart apache2
     ```
-15. Membuat virtual host file untuk Joomla
+16. Membuat virtual host file untuk Joomla
     ```
     $ nano /etc/apache2/sites-available/joomla.conf
     ```
-16. Tambahkan ini ke file yang sudah ada (ganti "example.com dengan domain name yang asli)
+17. Tambahkan ini ke file yang sudah ada (ganti "example.com dengan domain name yang asli)
     ```
     <VirtualHost *:80>
      ServerAdmin admin@example.com
@@ -136,30 +136,30 @@ Deskripsi singkat tentang aplikasi tsb.
      </Directory>
     </VirtualHost>
     ```
-17. Enable virtual host file
+18. Enable virtual host file
     ```
     $ a2ensite joomla.conf
     $ a2enmod rewrite
     ```
-18. Restart apache web server
+19. Restart apache web server
     ```
     $ systemctl restart apache2
     ```
-19. Install `snapd`
+20. Install `snapd`
     ```
     $ apt install snapd
     ```
-20. Cek apakah `snapd` sudah terupdate
+21. Cek apakah `snapd` sudah terupdate
     ```
     $ snapd install; sudo snap resresh core
     ```
-21. Install `Certbot`
+22. Install `Certbot`
     ```
     $ snap install --classic certbot
     $ ln -s /snap/bin/certbot /usr/bin/certbot
     $ certbot --apache
     ```
-22. Konfigurasi Joomla
+23. Konfigurasi Joomla
     - Di browser kita akan mengatur Site name dan memasukan data data seperti Username, User Account, Super User         Password, and Email Address, setelah itui click tombol Setup Database Connection.
     - Masukan informasi database yang sudah dibuat diawal
     - Masukan username dan password yang sudah di atur sebelumnya
