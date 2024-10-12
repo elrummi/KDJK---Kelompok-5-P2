@@ -136,6 +136,15 @@ Deskripsi singkat tentang aplikasi tsb.
     - kekurangan
 - Bandingkan dengan aplikasi web lain yang sejenis
 
+Disamping kelebihan yang dimiliki, beberapa kelemahan yang ada diantaranya, 
+- Tidak adanya fitur untuk pembuatan akun pengguna secara mandiri. Pengguna tidak dapat mendaftar sendiri melalui situs, melainkan harus melalui admin, yang bisa menjadi kendala bagi situs yang membutuhkan interaksi pengguna yang tinggi. 
+- Tidak ideal untuk situs besar dan kompleks. Masalah kinerja bisa terjadi seperti waktu muat yang lebih lambat dan peningkatan konsumsi sumber daya server. Hal ini dapat mengurangi pengalaman pengguna dan menghambat pengelolaan situs.
+- Kurang intuitif dibandingkan dengan beberapa CMS lainnya. Antarmuka pengguna lebih kompleks dan kurang variatif, yang bisa membuatnya sulit dipahami dan digunakan, terutama bagi pemula. 
+
+Dalam perbandingannya dengan Squarespace, perbedaan utama diantara keduanya terletak pada fleksibilitas kustomisasi dan fungsionalitas yang ditawarkan. Joomla menawarkan kustomisasi yang kompleks dan fungsionalitas khusus yang multifaset, membuatnya cocok untuk proyek yang membutuhkan fitur khusus dan struktur situs yang rumit memfasilitasi pengguna untuk eksplor dan menggunakan kreatifitasnya dalam melakukan kustomisasi dan penyesuaian fungsionalitas. 
+
+Di lain sisi, Squarespace dikenal dengan template yang menarik dan kemudahan bagi penggunaannya. Squarespace ideal untuk pengguna yang mencari solusi cepat dan mudah tanpa pengetahuan teknis. 
+
 
 ## Referensi
 
