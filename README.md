@@ -204,6 +204,6 @@ Di lain sisi, Squarespace dikenal dengan template yang menarik dan kemudahan bag
 
 
 ## Referensi
-    - https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04
+- [https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04](https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04)
 
 [Pembahasan](https://fastdot.com/web-hosting-faq/joomla-strengths-weaknesses/#What_Are_the_Weaknesses_of_Joomla)
