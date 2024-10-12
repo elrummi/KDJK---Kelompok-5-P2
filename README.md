@@ -98,14 +98,14 @@ Deskripsi singkat tentang aplikasi tsb.
     MariaDB [(none)]> EXIT;
     ```
 11. Download **Joomla**.
-        Download melalui [Official site Joomla](https://downloads.joomla.org/)
+    - Download melalui [Official site Joomla](https://downloads.joomla.org/)
     
 13. Unzip file yang didownload menuju ke `/var/www/html/` (sesuaikan nama version Joomla-nya)
     ```
     $ mkdir /var/www/html/joomla
     $ unzip Joomla_4.1.2-Stable-Full_Package.zip -d /var/www/html/joomla
     
-14. Set directory ownership dari directory ke Apache user dan ubah peermissions
+14. Set directory ownership dari directory ke Apache user dan ubah permissions
     ```
     $ chown -R www-data:www-data /var/www/html/joomla
     $ chmod -R 755 /var/www/html/joomla
