@@ -88,12 +88,10 @@ Deskripsi singkat tentang aplikasi tsb.
     $ mysql_secure_installation
     ```
 
-9. Restart kembali Apache web server.
-    ```
-    $ sudo service apache2 restart
-    ```
-
-10. Kunjungi alamat IP web server kita untuk meneruskan instalasi.
+9. Download dan Extract **Joomla**.
+    Download melalui [Official site Joomla](https://downloads.joomla.org/)
+    -Extract
+11. Kunjungi alamat IP web server kita untuk meneruskan instalasi.
     - Pilih Bahasa yang akan digunakan
 
       ![1](https://4.bp.blogspot.com/-4Bd2ScecDIs/WNfZ0H8j3UI/AAAAAAAAGjE/9f7Knlqzgw0a0Lgd2AVQ7Qt53bI-Of8bACLcB/s1600/36.PNG)
@@ -118,16 +116,10 @@ Deskripsi singkat tentang aplikasi tsb.
 
       ![6](https://3.bp.blogspot.com/-t2MrsQBYXBU/WNfZ0x4YoWI/AAAAAAAAGjQ/zOqZVNSFIpQkQjY0awofbetdEowQLdGAwCLcB/s1600/41.PNG)
 
-11. Setelah proses instalasi selesai hapus direktori install untuk alasan keamanan.
+12. Setelah proses instalasi selesai hapus direktori install untuk alasan keamanan.
     ```
     $ sudo rm -rf /var/www/html/prestashop/install
     ```
-
-
-
-- Prasyarat, apa saja yang harus diinstal sebelumnya.
-- Langkah instalasi dalam CLI.
-
 
 ## Cara Pemakaian
 
