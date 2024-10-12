@@ -203,6 +203,26 @@ Dalam perbandingannya dengan Squarespace, perbedaan utama diantara keduanya terl
 
 Di lain sisi, Squarespace dikenal dengan template yang menarik dan kemudahan bagi penggunaannya. Squarespace ideal untuk pengguna yang mencari solusi cepat dan mudah tanpa pengetahuan teknis. 
 
+## Dokumentasi
+![WhatsApp Image 2024-10-11 at 23 09 24](https://github.com/user-attachments/assets/c970d3b9-eaf3-412a-a426-f3da12e18a12)
+![WhatsApp Image 2024-10-11 at 23 09 30](https://github.com/user-attachments/assets/76d31dfc-029a-41ea-8116-31daae0ecc17)
+![Screenshot_2024-09-27_12-55-29](https://github.com/user-attachments/assets/52295df7-0a6a-4cea-a1ae-5984d2de17dc)
+![Screenshot_2024-09-27_12-55-07](https://github.com/user-attachments/assets/d3f8749d-ecf4-4ad5-94c3-55b557b5824b)
+![Screenshot_2024-09-27_12-54-43](https://github.com/user-attachments/assets/00f8cdec-6afc-4579-9db0-d520c0267328)
+![Screenshot_2024-09-27_12-54-24](https://github.com/user-attachments/assets/1f78160b-c4de-47c8-9c14-63214b3fb928)
+![Screenshot_2024-09-27_12-54-08](https://github.com/user-attachments/assets/02d505aa-76df-48c8-9d79-ab2ca223034b)
+![Screenshot_2024-09-27_12-53-40](https://github.com/user-attachments/assets/cb88ff20-0532-45c9-89cb-43ae8c7d6b79)
+![Screenshot_2024-09-27_12-51-08](https://github.com/user-attachments/assets/dd5fc0c1-e5f4-46a2-b348-c0c343613183)
+![Screenshot_2024-09-27_14-01-46](https://github.com/user-attachments/assets/ade8f574-d9c5-4ce5-8398-ea6a043490d9)
+![Screenshot_2024-09-27_14-01-40](https://github.com/user-attachments/assets/45cab72f-614e-4b11-a2ae-fd54d4723528)
+![Screenshot_2024-09-27_14-01-18](https://github.com/user-attachments/assets/5fc6acb5-2e71-4cf4-b7bc-7c1c7722d7ed)
+![Screenshot_2024-09-27_14-01-01](https://github.com/user-attachments/assets/297d500c-f019-431e-b6a7-cba9348fee77)
+![Screenshot_2024-09-27_12-57-22](https://github.com/user-attachments/assets/2d1cd17c-997c-4b36-900a-f70e913928b8)
+![Screenshot_2024-09-27_12-56-58](https://github.com/user-attachments/assets/eabf7fdf-737e-49a3-a9d4-1173d5cc70bd)
+![Screenshot_2024-09-27_12-56-16](https://github.com/user-attachments/assets/09c7094d-3e24-4682-a705-ccb9d49dde7a)
+![Screenshot_2024-09-27_12-55-58](https://github.com/user-attachments/assets/a3d27f24-d88e-4749-b3cb-b2d8942747b8)
+
+
 
 ## Referensi
 - [https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04](https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04)
