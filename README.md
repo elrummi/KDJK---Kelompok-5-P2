@@ -174,9 +174,25 @@ Joomla juga memiliki sistem manajemen pengguna yang sangat fleksibel, memungkink
 ## Cara Pemakaian
 
 - Tampilan aplikasi web
+<img width="1440" alt="Screenshot 2024-10-12 at 20 36 23" src="https://github.com/user-attachments/assets/a27bd4e4-9567-4bdd-aa5d-ab69dedbfdbe">
+
 - Tampilan admin aplikasi web
+<img width="1440" alt="Screenshot 2024-10-12 at 20 36 39" src="https://github.com/user-attachments/assets/76a6e10a-c74c-4c11-8277-31cf349558fe">
+
 - Fungsi-fungsi utama
+    1. Manajemen Konten (Content Management)
+        Fungsi ini adalah inti dari Joomla, memungkinkan pembuatan, pengelolaan, dan publikasi konten di situs web. Joomla memberikan       kontrol penuh terhadap struktur dan presentasi konten, seperti artikel, blog, atau halaman web.
+    2. Sistem Template
+        Fungsi ini memungkinkan pengguna untuk mengatur tampilan situs web dengan menggunakan template yang dapat diubah kapan saja         tanpa memengaruhi konten yang ada.
+    3. Manajemen Pengguna (User Management)
+        Joomla memiliki sistem manajemen pengguna yang kompleks untuk mengatur akses pengguna pada berbagai tingkatan, dari pengunjung      biasa hingga administrator penuh.
+    4. Ekstensi (Extensions)
+        Kemampuan untuk memperluas fungsi Joomla melalui ekstensi (komponen, modul, plugin) adalah fungsi utama yang memungkinkan           platform ini memenuhi kebutuhan yang sangat beragam, seperti menambah fitur e-commerce atau forum.
+    5. SEO (Search Engine Optimization)
+        Joomla memiliki fitur bawaan untuk mengoptimalkan konten agar dapat ditemukan di mesin pencari, seperti URL ramah SEO,             metadata, dan pengelolaan heading.
+
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+
 
 
 ## Pembahasan
