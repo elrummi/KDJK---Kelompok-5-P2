@@ -179,6 +179,14 @@ Deskripsi singkat tentang aplikasi tsb.
     - kekurangan
 - Bandingkan dengan aplikasi web lain yang sejenis
 
+Beberapa kelebihan yang dimiliki oleh Joomla, diantaranya: 
+-Memberikan kontrol penuh kepada pengguna yang menginginkan desain dan fitur yang disesuaikan.
+-Memiliki sistem manajemen pengguna yang lebih lengkap dibandingkan dengan CMS lain, sangat cocok untuk situs yang membutuhkan pengaturan akses tingkat lanjut.
+-Mendukung multibahasa tanpa memerlukan plugin tambahan, menjadikannya ideal untuk situs yang melayani audiens global.
+-Memiliki fleksibelitas untuk membangun situs yang kompleks, seperti portal komunitas, direktori bisnis, atau situs multi-bahasa, berkat sistem pengelolaan pengguna dan ekstensi yang kuat.
+-Memberikan lebih banyak kontrol untuk optimasi SEO melalui fitur bawaan dan ekstensi yang tersedia, memungkinkan pengguna untuk mengoptimalkan situs mereka dengan lebih detail.
+-Unggul dalam hal kustomisasi dan fleksibilitas fungsionalitas. Dengan Joomla, pengguna dapat membuat situs web yang sangat kompleks dengan fitur yang disesuaikan. Ini membuat Joomla cocok untuk pengembang atau perusahaan yang membutuhkan kontrol penuh terhadap desain dan fungsionalitas.
+
 Disamping kelebihan yang dimiliki, beberapa kelemahan yang ada diantaranya, 
 - Tidak adanya fitur untuk pembuatan akun pengguna secara mandiri. Pengguna tidak dapat mendaftar sendiri melalui situs, melainkan harus melalui admin, yang bisa menjadi kendala bagi situs yang membutuhkan interaksi pengguna yang tinggi. 
 - Tidak ideal untuk situs besar dan kompleks. Masalah kinerja bisa terjadi seperti waktu muat yang lebih lambat dan peningkatan konsumsi sumber daya server. Hal ini dapat mengurangi pengalaman pengguna dan menghambat pengelolaan situs.
