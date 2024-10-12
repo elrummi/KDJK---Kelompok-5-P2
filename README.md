@@ -1,14 +1,13 @@
 <p align="center">
   <img width="662" height="550" src="https://github.com/user-attachments/assets/e3186fa5-d051-48f0-b17c-5ea4c0491e9a">
 </p>
-<h1 align="center"><img src="https://1.bp.blogspot.com/-3za0XKJuLSc/WNfUgBtwwFI/AAAAAAAAGiQ/ADAfpkEiUn0w6FHDjMpt-i3PzYyMBtNQQCLcB/s1600/1.png"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:
 
-[`^ kembali ke atas ^`](#)
-## Sekilas Tentang
 
+## Sekilas Tentang
+[`^ kembali ke atas ^`](#)
 
 Joomla adalah sebuah Content Management System (CMS) open-source yang digunakan untuk membangun dan mengelola situs web secara dinamis. Dikembangkan dengan menggunakan bahasa pemrograman PHP dan database MySQL atau MariaDB, Joomla menawarkan solusi yang fleksibel untuk pengelolaan konten, pembuatan berbagai halaman web, dan penambahan fitur tambahan. Joomla menggunakan sistem modular yang memungkinkan pengguna menambahkan ekstensi berupa komponen, modul, dan plugin untuk memperluas fungsionalitas situs. Ekstensi ini bisa mencakup fitur seperti e-commerce, forum, galeri gambar, hingga optimasi mesin pencari (SEO), membuatnya sangat serbaguna. Sistem template Joomla memungkinkan pengguna untuk mengubah tampilan situs secara dinamis tanpa mempengaruhi konten yang ada, serta mendukung desain responsif untuk perangkat seluler.
 
