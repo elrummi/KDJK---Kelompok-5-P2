@@ -3,8 +3,9 @@
 
 ## Sekilas Tentang
 
-Deskripsi singkat tentang aplikasi tsb.
+Joomla adalah sebuah Content Management System (CMS) open-source yang digunakan untuk membangun dan mengelola situs web secara dinamis. Dikembangkan dengan menggunakan bahasa pemrograman PHP dan database MySQL atau MariaDB, Joomla menawarkan solusi yang fleksibel untuk pengelolaan konten, pembuatan berbagai halaman web, dan penambahan fitur tambahan. Joomla menggunakan sistem modular yang memungkinkan pengguna menambahkan ekstensi berupa komponen, modul, dan plugin untuk memperluas fungsionalitas situs. Ekstensi ini bisa mencakup fitur seperti e-commerce, forum, galeri gambar, hingga optimasi mesin pencari (SEO), membuatnya sangat serbaguna. Sistem template Joomla memungkinkan pengguna untuk mengubah tampilan situs secara dinamis tanpa mempengaruhi konten yang ada, serta mendukung desain responsif untuk perangkat seluler.
 
+Joomla juga memiliki sistem manajemen pengguna yang sangat fleksibel, memungkinkan pengaturan hak akses pengguna pada berbagai tingkatan. Hal ini penting bagi situs yang melibatkan banyak pengguna dengan peran berbeda, seperti situs perusahaan besar atau portal komunitas. Salah satu fitur utamanya adalah dukungan multibahasa secara native, yang memudahkan dalam membuat situs multibahasa tanpa memerlukan ekstensi tambahan. Selain itu, Joomla dilengkapi dengan fitur SEO bawaan seperti URL ramah mesin pencari, pengelolaan metadata, dan pembuatan sitemap, yang membantu meningkatkan visibilitas situs di mesin pencari. Namun, Joomla memiliki kurva pembelajaran yang lebih tinggi dibandingkan dengan CMS lain seperti WordPress, terutama karena antarmuka yang lebih kompleks dan banyaknya opsi kustomisasi yang tersedia.
 
 ## Instalasi
 
