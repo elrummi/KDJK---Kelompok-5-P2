@@ -19,14 +19,14 @@
 
 
 ## Sekilas Tentang
-[`^ back ^`](#)
+[`^ back ^`](#)<br>
 Joomla adalah sebuah Content Management System (CMS) open-source yang digunakan untuk membangun dan mengelola situs web secara dinamis. Dikembangkan dengan menggunakan bahasa pemrograman PHP dan database MySQL atau MariaDB, Joomla menawarkan solusi yang fleksibel untuk pengelolaan konten, pembuatan berbagai halaman web, dan penambahan fitur tambahan. Joomla menggunakan sistem modular yang memungkinkan pengguna menambahkan ekstensi berupa komponen, modul, dan plugin untuk memperluas fungsionalitas situs. Ekstensi ini bisa mencakup fitur seperti e-commerce, forum, galeri gambar, hingga optimasi mesin pencari (SEO), membuatnya sangat serbaguna. Sistem template Joomla memungkinkan pengguna untuk mengubah tampilan situs secara dinamis tanpa mempengaruhi konten yang ada, serta mendukung desain responsif untuk perangkat seluler.
 
 Joomla juga memiliki sistem manajemen pengguna yang sangat fleksibel, memungkinkan pengaturan hak akses pengguna pada berbagai tingkatan. Hal ini penting bagi situs yang melibatkan banyak pengguna dengan peran berbeda, seperti situs perusahaan besar atau portal komunitas. Salah satu fitur utamanya adalah dukungan multibahasa secara native, yang memudahkan dalam membuat situs multibahasa tanpa memerlukan ekstensi tambahan. Selain itu, Joomla dilengkapi dengan fitur SEO bawaan seperti URL ramah mesin pencari, pengelolaan metadata, dan pembuatan sitemap, yang membantu meningkatkan visibilitas situs di mesin pencari. Namun, Joomla memiliki kurva pembelajaran yang lebih tinggi dibandingkan dengan CMS lain seperti WordPress, terutama karena antarmuka yang lebih kompleks dan banyaknya opsi kustomisasi yang tersedia.
 
 
 ## Instalasi
-[`^ back ^`](#)
+[`^ back ^`](#)<br>
 **Kebutuhan Sistem :**
 - Windows / Linux / Ubuntu.
 - Apache Web server.
@@ -193,7 +193,7 @@ Joomla juga memiliki sistem manajemen pengguna yang sangat fleksibel, memungkink
 
   
 ## Cara Pemakaian
-[`^ back ^`](#)
+[`^ back ^`](#)<br>
 - Tampilan aplikasi web
 <img width="1440" alt="Screenshot 2024-10-12 at 20 36 23" src="https://github.com/user-attachments/assets/a27bd4e4-9567-4bdd-aa5d-ab69dedbfdbe">
 
@@ -237,7 +237,7 @@ Tampilan preview artikel di halaman frontend situs web dengan template Cassiopei
 
 
 ## Pembahasan
-[`^ back ^`](#)
+[`^ back ^`](#)<br>
 Beberapa kelebihan yang dimiliki oleh Joomla, diantaranya: 
 
 - Memberikan kontrol penuh kepada pengguna yang menginginkan desain dan fitur yang disesuaikan.
@@ -259,7 +259,7 @@ Di lain sisi, Squarespace dikenal dengan template yang menarik dan kemudahan bag
 
 
 ## Dokumentasi
-[`^ back ^`](#)
+[`^ back ^`](#)<br>
 ![WhatsApp Image 2024-10-11 at 23 09 24](https://github.com/user-attachments/assets/c970d3b9-eaf3-412a-a426-f3da12e18a12)
 ![WhatsApp Image 2024-10-11 at 23 09 30](https://github.com/user-attachments/assets/76d31dfc-029a-41ea-8116-31daae0ecc17)
 ![Screenshot_2024-09-27_12-55-29](https://github.com/user-attachments/assets/52295df7-0a6a-4cea-a1ae-5984d2de17dc)
@@ -280,7 +280,7 @@ Di lain sisi, Squarespace dikenal dengan template yang menarik dan kemudahan bag
 
 
 ## Referensi
-[`^ back ^`](#)
+[`^ back ^`](#)<br>
 - [https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04](https://wiki.crowncloud.net/How_To_Install_Duf_On_Ubuntu_22_04?How_to_Install_Joomla_On_Ubuntu_22_04)
 - [https://fastdot.com/web-hosting-faq/joomla-strengths-weaknesses/#What_Are_the_Weaknesses_of_Joomla](https://fastdot.com/web-hosting-faq/joomla-strengths-weaknesses/#What_Are_the_Weaknesses_of_Joomla)
 - https://www.biznetgio.com/news/apa-itu-joomla
