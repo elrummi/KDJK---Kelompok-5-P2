@@ -34,57 +34,58 @@ Deskripsi singkat tentang aplikasi tsb.
     Server built:   2022-03-25T00:35:40
     ```
 
-4. Ekstrak file yang telah diunduh ke dalam direktori yang kita inginkan.
+3. Start dan enable Apache web server.
     ```
-    $ sudo unzip prestashop_1.7.0.5.zip -d /var/www/html/prestashop
-    ```
-
-5. Ubah otorisasi kepemilikan ke user www-data (webserver)
-    ```
-    $ sudo chown -R www-data:www-data /var/www/html/prestashop
+    $ systemctl start apache2
+    $ systemctl enable apache2 
     ```
 
-6. Buat database dan user untuk **Prestashop**.
+4. Verifikasi status Apache.
     ```
-    $ mysql -u root -p -v -e "
-        CREATE DATABASE prestashop;
-        CREATE USER 'prestashopuser'@'localhost' IDENTIFIED BY 'prestashoppassword';
-        GRANT ALL PRIVILEGES ON `prestashop`.* TO 'prestashopuser'@'localhost';
-        FLUSH PRIVILEGES;"
+    $ systemctl status apache2
+    ```
+    Output :
+   ```
+   root@crown:~# systemctl status apache2
+    ● apache2.service - The Apache HTTP Server
+         Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+         Active: active (running) since Fri 2022-04-08 18:34:36 UTC; 2h 21min ago
+           Docs: https://httpd.apache.org/docs/2.4/
+       Main PID: 659 (apache2)
+          Tasks: 7 (limit: 1034)
+         Memory: 14.0M
+            CPU: 669ms
+         CGroup: /system.slice/apache2.service
+                 ├─ 659 /usr/sbin/apache2 -k start
+                 ├─ 680 /usr/sbin/apache2 -k start
+                 ├─ 681 /usr/sbin/apache2 -k start
+                 ├─ 682 /usr/sbin/apache2 -k start
+                 ├─ 690 /usr/sbin/apache2 -k start
+                 ├─ 691 /usr/sbin/apache2 -k start
+                 └─1603 /usr/sbin/apache2 -k start
+   ```
+
+5. Verifikasi PHP.
+    ```
+    $ php -v
+    ```
+    Output:
+   ```
+   root@crown:~# php -v
+    PHP 8.1.4 (cli) (built: Apr  4 2022 13:36:22) (NTS)
+    Copyright (c) The PHP Group
+    Zend Engine v4.1.4, Copyright (c) Zend Technologies
+        with Zend OPcache v8.1.4, Copyright (c), by Zend Technologies
+   ```
+
+6. Install `MariaDB`.
+    ```
+    $ apt install mariadb-server
     ```
 
-7. Konfigurasi Apache web server.
+9. MariaDB secara default tidak secure, maka akan kita secure database engine nya.
     ```
-    $ sudo a2enmod rewrite
-    $ sudo touch /etc/apache2/sites-available/prestashop.conf
-    $ sudo ln -s /etc/apache2/sites-available/prestashop.conf /etc/apache2/sites-enabled/prestashop.conf
-    $ sudo nano /etc/apache2/sites-available/prestashop.conf
-
-    <VirtualHost *:80>
-    ServerAdmin admin@your-domain.com
-    DocumentRoot /var/www/html/prestashop/
-    ServerName your-domain.com
-    ServerAlias www.your-domain.com
-    <Directory /var/www/html/prestashop/>
-    Options FollowSymLinks
-    AllowOverride All
-    Order allow,deny
-    allow from all
-    </Directory>
-    ErrorLog /var/log/apache2/your-domain.com-error_log
-    CustomLog /var/log/apache2/your-domain.com-access_log common
-    </VirtualHost>
-    ```
-
-8. Edit file `etc/php/7.0/apache2/php.ini` dan tambahkan baris berikut :
-    ```
-    memory_limit = 128M
-    upload_max_filesize = 16M
-    max_execution_time = 60
-    file_uploads = On
-    allow_url_fopen = On
-    magic_quotes_gpc = Off
-    register_globals = Off
+    $ mysql_secure_installation
     ```
 
 9. Restart kembali Apache web server.
