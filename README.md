@@ -149,3 +149,5 @@ Di lain sisi, Squarespace dikenal dengan template yang menarik dan kemudahan bag
 ## Referensi
 
 Cantumkan tiap sumber informasi yang anda pakai.
+
+[Pembahasan](https://fastdot.com/web-hosting-faq/joomla-strengths-weaknesses/#What_Are_the_Weaknesses_of_Joomla)
