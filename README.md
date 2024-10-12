@@ -192,7 +192,21 @@ Joomla juga memiliki sistem manajemen pengguna yang sangat fleksibel, memungkink
         Joomla memiliki fitur bawaan untuk mengoptimalkan konten agar dapat ditemukan di mesin pencari, seperti URL ramah SEO,             metadata, dan pengelolaan heading.
 
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+<img width="1440" alt="Screenshot 2024-10-12 at 20 02 37" src="https://github.com/user-attachments/assets/55ff307f-ab17-4c1c-b9b3-5b4a787a9ef0">
+Ini adalah bagian "Position" yang menunjukkan daftar posisi modul dalam template Joomla. Modul dapat ditempatkan di berbagai area yang disediakan oleh template, seperti "banner", "sidebar-right", "bottom", atau "breadcrumbs". Administrator dapat memilih posisi modul agar sesuai dengan tata letak yang diinginkan.
 
+<img width="1440" alt="Screenshot 2024-10-12 at 20 02 49" src="https://github.com/user-attachments/assets/55f79908-cd30-45fa-aa1c-fcb1eccbb8b6">
+Bagian ini menunjukkan pengaturan "Status" modul. Opsi yang tersedia termasuk "Published" (modul dipublikasikan dan terlihat di frontend), "Unpublished" (modul tidak terlihat di frontend), dan "Trashed" (modul dihapus). Pengaturan ini digunakan untuk mengelola status keberadaan modul di situs web.
+
+<img width="1440" alt="Screenshot 2024-10-12 at 20 03 07" src="https://github.com/user-attachments/assets/8b01f83a-f77a-4b7c-a247-8732a82686ba">
+<img width="1440" alt="Screenshot 2024-10-12 at 20 03 16" src="https://github.com/user-attachments/assets/b1eb73dd-0d07-4bfb-81a8-7f0d12f18679">
+Ini adalah bagian pengaturan waktu publikasi modul. Pengguna bisa mengatur kapan modul mulai dipublikasikan dan kapan akan selesai dipublikasikan menggunakan opsi "Start Publishing" dan "Finish Publishing". Ini memberikan fleksibilitas pada administrator dalam mengelola visibilitas modul berdasarkan waktu tertentu.
+
+<img width="1440" alt="Screenshot 2024-10-12 at 20 03 20" src="https://github.com/user-attachments/assets/53ec9fab-ebac-4022-8a5b-2733a36266ec">
+Di sini, pengaturan "Access" ditampilkan. Ini memungkinkan pengguna untuk mengatur siapa saja yang bisa melihat modul tersebut, dengan opsi seperti "Public", "Guest", "Registered", "Special", dan "Super Users". Pengaturan ini berguna untuk membatasi akses modul kepada kelompok pengguna tertentu.
+
+<img width="1440" alt="Screenshot 2024-10-12 at 20 03 54" src="https://github.com/user-attachments/assets/b244735d-4d78-4102-97ed-656dab9e3cf6">
+Pada screenshot ini, bagian "Advanced" dalam pengaturan modul ditampilkan. Di sini pengguna bisa mengatur layout modul, module class, module tag, ukuran Bootstrap, serta header tag. Pengaturan ini digunakan untuk penyesuaian tampilan dan perilaku modul sesuai kebutuhan.
 
 
 ## Pembahasan
